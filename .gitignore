@@ -1,0 +1,5 @@
+.claude/
+
+# Ignore markdown files except README
+*.md
+!README.md

@@ -1,0 +1,60 @@
+CUSTOM ITEMS SETUP GUIDE
+========================
+
+I've created an example setup for custom items using custom_model_data.
+
+STRUCTURE CREATED:
+------------------
+assets/minecraft/models/item/stick.json
+  - Main item model with custom_model_data overrides
+
+assets/minecraft/models/item/custom/magic_wand.json
+assets/minecraft/models/item/custom/staff.json
+  - Custom model variants
+
+WHAT YOU NEED TO DO:
+--------------------
+1. Add your custom textures to:
+   assets/minecraft/textures/item/custom/magic_wand.png
+   assets/minecraft/textures/item/custom/staff.png
+
+   These should be 16x16 PNG files (or higher resolution with mcmeta)
+
+2. In-game, give yourself items with custom model data:
+   /give @s stick[custom_model_data=1]  (magic wand)
+   /give @s stick[custom_model_data=2]  (staff)
+
+HOW TO ADD MORE CUSTOM ITEMS:
+------------------------------
+1. Choose a base item (stick, diamond, etc.)
+2. Create/edit the model file in assets/minecraft/models/item/[item_name].json
+3. Add overrides with different custom_model_data values
+4. Create the custom model files in assets/minecraft/models/item/custom/
+5. Add your textures to assets/minecraft/textures/item/custom/
+
+EXAMPLE - Adding a custom diamond:
+-----------------------------------
+Create assets/minecraft/models/item/diamond.json:
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/diamond"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "minecraft:item/custom/ruby"
+    }
+  ]
+}
+
+Then create the ruby model and texture files.
+
+NOTES FOR 1.21.9+:
+------------------
+- Pack format 69 uses the newer item model format
+- Item models now use the "model" wrapper object
+- Textures may need to be in specific atlases depending on usage
+- Custom model data values can be any integer (1-999999999)

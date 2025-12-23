@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/paper"
+    },
+    "cases": [
+      {
+        "when": "settings",
+        "model": {
+          "type": "model",
+          "model": "item/custom/settings_paper"
+        }
+      },
+      {
+        "when": "cosmetic",
+        "model": {
+          "type": "model",
+          "model": "item/custom/cosmetic"
+        }
+      }
+    ]
+  }
+}
