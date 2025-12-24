@@ -20,6 +20,20 @@
           "type": "model",
           "model": "item/custom/cosmetic"
         }
+      },
+      {
+        "when": "red_cross",
+        "model": {
+          "type": "model",
+          "model": "item/custom/red_cross"
+        }
+      },
+      {
+        "when": "green_check",
+        "model": {
+          "type": "model",
+          "model": "item/custom/green_check"
+        }
       }
     ]
   }
