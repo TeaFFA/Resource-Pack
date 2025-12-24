@@ -170,34 +170,8 @@
         { "type": "bitmap", "file": "stray:emojis/thinking.png", "ascent": 8, "height": 9, "chars": ["䟣"] },
         { "type": "bitmap", "file": "stray:emojis/vomit.png", "ascent": 8, "height": 9, "chars": ["䠞"] },
         { "type": "bitmap", "file": "stray:emojis/wave.png", "ascent": 8, "height": 9, "chars": ["䡇"] },
-       { "type": "bitmap", "file": "stray:emojis/zz.png", "ascent": 8, "height": 9, "chars": ["䢔"] },
+       { "type": "bitmap", "file": "stray:emojis/zz.png", "ascent": 8, "height": 9, "chars": ["䢔"] }
 
-
-
-
-
-
-        { "type": "bitmap", "file": "item/duels/elodown.png", "ascent": 16, "height": 16, "chars": ["㓂"] },
-		{ "type": "bitmap", "file": "item/duels/eloup.png", "ascent": 16, "height": 16, "chars": ["㔒"] },
-        { "type": "bitmap", "file": "item/duels/bedrock.png", "ascent": 16, "height": 16, "chars": ["㕙"] },
-        { "type": "bitmap", "file": "item/duels/netherite3.png", "ascent": 16, "height": 16, "chars": ["㗆"] },
-        { "type": "bitmap", "file": "item/duels/netherite2.png", "ascent": 16, "height": 16, "chars": ["㘘"] },
-        { "type": "bitmap", "file": "item/duels/netherite1.png", "ascent": 16, "height": 16, "chars": ["㚯"] },
-        { "type": "bitmap", "file": "item/duels/diamond3.png", "ascent": 16, "height": 16, "chars": ["㛝"] },
-        { "type": "bitmap", "file": "item/duels/diamond2.png", "ascent": 16, "height": 16, "chars": ["㜢"] },
-        { "type": "bitmap", "file": "item/duels/diamond1.png", "ascent": 16, "height": 16, "chars": ["㞦"] },
-        { "type": "bitmap", "file": "item/duels/emerald3.png", "ascent": 16, "height": 16, "chars": ["㟏"] },
-        { "type": "bitmap", "file": "item/duels/emerald2.png", "ascent": 16, "height": 16, "chars": ["㠿"] },
-        { "type": "bitmap", "file": "item/duels/emerald1.png", "ascent": 16, "height": 16, "chars": ["㡺"] },
-        { "type": "bitmap", "file": "item/duels/gold3.png", "ascent": 16, "height": 16, "chars": ["㢎"] },
-        { "type": "bitmap", "file": "item/duels/gold2.png", "ascent": 16, "height": 16, "chars": ["㣣"] },
-        { "type": "bitmap", "file": "item/duels/gold1.png", "ascent": 16, "height": 16, "chars": ["㥦"] },
-        { "type": "bitmap", "file": "item/duels/iron3.png", "ascent": 16, "height": 16, "chars": ["㦳"] },
-        { "type": "bitmap", "file": "item/duels/iron2.png", "ascent": 16, "height": 16, "chars": ["㧚"] },
-        { "type": "bitmap", "file": "item/duels/iron1.png", "ascent": 16, "height": 16, "chars": ["㨩"] },
-        { "type": "bitmap", "file": "item/duels/copper3.png", "ascent": 16, "height": 16, "chars": ["㩭"] },
-        { "type": "bitmap", "file": "item/duels/copper2.png", "ascent": 16, "height": 16, "chars": ["㪎"] },
-        { "type": "bitmap", "file": "item/duels/copper1.png", "ascent": 16, "height": 16, "chars": ["㫺"] }
 
 		
 
