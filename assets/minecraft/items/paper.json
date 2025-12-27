@@ -34,7 +34,44 @@
           "type": "model",
           "model": "item/custom/green_check"
         }
-      }
+      },
+      {
+        "when": "killer_clown_mask",
+        "model": { "type": "model", "model": "hats/killer_clown_mask" }
+      },
+      { "when": "witch_hat", "model": { "type": "model", "model": "hats/witch_hat" } },
+      { "when": "pumpkin_head", "model": { "type": "model", "model": "hats/pumpkin_head" } },
+      { "when": "eye_ball", "model": { "type": "model", "model": "hats/eye_ball" } },
+      {
+        "when": "black_cat_ears",
+        "model": { "type": "model", "model": "hats/black_cat_ears" }
+      },
+      { "when": "hockey_mask", "model": { "type": "model", "model": "hats/hockey_mask" } },
+      { "when": "head_sword", "model": { "type": "model", "model": "hats/head_sword" } },
+      { "when": "skull_head", "model": { "type": "model", "model": "hats/skull_head" } },
+      {
+        "when": "staffhat_owner",
+        "model": { "type": "model", "model": "hats/staffhat_owner" }
+      },
+      { "when": "box_hat", "model": { "type": "model", "model": "hats/box_hat" } },
+      { "when": "axolotl_hat", "model": { "type": "model", "model": "hats/axolotl_hat" } },
+      { "when": "clown", "model": { "type": "model", "model": "hats/clown" } },
+      { "when": "panda_hat", "model": { "type": "model", "model": "hats/panda_hat" } },
+      { "when": "frog_hat", "model": { "type": "model", "model": "hats/frog_hat" } },
+      { "when": "miner_hat", "model": { "type": "model", "model": "hats/miner_hat" } },
+      {
+        "when": "nutcracker_cap",
+        "model": { "type": "model", "model": "hats/nutcracker_cap" }
+      },
+      { "when": "krampus", "model": { "type": "model", "model": "hats/krampus" } },
+      { "when": "elf_hat", "model": { "type": "model", "model": "hats/elf_hat" } },
+      {
+        "when": "present_box_hat",
+        "model": { "type": "model", "model": "hats/present_box_hat" }
+      },
+      { "when": "advent_crown", "model": { "type": "model", "model": "hats/advent_crown" } },
+      { "when": "reindeer_hat", "model": { "type": "model", "model": "hats/reindeer_hat" } },
+      { "when": "snowman_hat", "model": { "type": "model", "model": "hats/snowman_hat" } }
     ]
   }
 }
